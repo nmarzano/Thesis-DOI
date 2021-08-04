@@ -10,12 +10,12 @@ Two kinds of data are required for this analysis.
 **Workflow**:
 To reproduce analyses presented in the manuscript, it is recommended to use the following order: Numbered items in order (0 - 3) and within each numbered analysis scripts to follow the lettered order (A- Z). This will ensure any source data is generated as needed.
 
-0-import_data (imports data into VsCode environment from computer directory)
-1A-plot-histogram (imports data from vscode environment, removes major outliers and plots histograms. Also can plot ridgeline plots using code at bottom of script)
-1B-plot_traces (used to plot any individual molecule of interest)
-2A-initial_cleanup_TDP (cleans TDP data and removes outliers, finds the proportion of molecules from each treatment that goes below a defined threshold)
-2B-plot_TDP (plots TDP plots)
-2C-dwell_time_analysis (cleans all TDP data, removes outliers, removes the first residence time for each molecule, calculates transition frequency of specific classes, plots violin plot of fret state prior to transition below defined threshold)
-2D-pot_transition_frequency (plots transition frequency graphs)
-2E-plot_violin_plots (calculates basic statistics, plots violin plots in a variety of ways)
-3-summary_plot (plots summary heatmaps, which includes information on the proportion of time below a threshold, residence times and transition probabilities)
+0-import_data (imports data into VsCode environment from computer directory).
+1A-plot-histogram (imports data from vscode environment, removes major outliers and plots histograms. Also can plot ridgeline plots using code at bottom of script).
+1B-plot_traces (used to plot any individual molecule of interest).
+2A-initial_cleanup_TDP (cleans TDP data and removes outliers, finds the proportion of molecules from each treatment that goes below a defined threshold).
+2B-plot_TDP (plots TDP plots).
+2C-dwell_time_analysis (cleans all TDP data, removes outliers, removes the first residence time for each molecule, calculates transition frequency of specific classes, plots violin plot of fret state prior to transition below defined threshold).
+2D-pot_transition_frequency (plots transition frequency graphs).
+2E-plot_violin_plots (calculates basic statistics, plots violin plots in a variety of ways).
+3-summary_plot (plots summary heatmaps, which includes information on the proportion of time below a threshold, residence times and transition probabilities).
