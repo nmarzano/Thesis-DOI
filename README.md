@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/391803274.svg)](https://zenodo.org/badge/latestdoi/391803274)
+
 # smFRET analysis and plotting for N. Marzano Thesis:
 
 This code was written to analyse single-molecule FRET (smFRET) data generated as part of the thesis entitled 'The development of single-molecule approaches for the study of molecular chaperones' written by Nicholas Marzano. Generally, the code enables raw data to be imported and used to construct histogram distributions, transition density plots (TDPs) and to analyze the kinetics orginating from a Hidden Markov Models (HMM) fitting of the data using the vbFRET MATLAB program. Furthermore, analyzed data can be plottted and presented using custom written code.
