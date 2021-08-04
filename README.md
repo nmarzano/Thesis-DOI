@@ -1,13 +1,13 @@
-# smFRET analysis and plotting for N. Marzano Thesis
+# smFRET analysis and plotting for N. Marzano Thesis:
 
 This code was written to analyse single-molecule FRET (smFRET) data generated as part of the thesis entitled 'The development of single-molecule approaches for the study of molecular chaperones' written by Nicholas Marzano. Generally, the code enables raw data to be imported and used to construct histogram distributions, transition density plots (TDPs) and to analyze the kinetics orginating from a Hidden Markov Models (HMM) fitting of the data using the vbFRET MATLAB program. Furthermore, analyzed data can be plottted and presented using custom written code.
 
-**Prerequisites**
+**Prerequisites**:
 Two kinds of data are required for this analysis. 
 (1) The raw and idealized FRET data for individual molecules following HMM analysis using vbFRET. Data for individual molecules is exported from vbFRET and stored within a folder.
 (2) Raw TDP data, including the initial FRET state (prior to a transition) and the final FRET state (FRET state after the transition) and the corresponding number of frames that the molecule was in the initial FRET state prior to the transition to the final FRET state. This data is required for each molecule with data for all molecules concatenated. 
 
-**Workflow**
+**Workflow**:
 To reproduce analyses presented in the manuscript, it is recommended to use the following order: Numbered items in order (0 - 3) and within each numbered analysis scripts to follow the lettered order (A- Z). This will ensure any source data is generated as needed.
 
 0-import_data (imports data into VsCode environment from computer directory)
